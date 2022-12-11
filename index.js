@@ -8,6 +8,6 @@ app.get('/', (reg, res) => {
     res.send("dsfd")
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log(`Example app listening on port ${PORT}`)
   })
